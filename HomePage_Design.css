@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+.banner
+{
+	width:100%;
+	height: 100vh; /* Relative to 1% of the height of the the viewpoint*/
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(149,199,20,1) 0%, rgba(0,212,255,1) 95%);
+	background-size: cover;
+	background-position: center;
+}
+.bar
+{
+	width:85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width:120px;
+	cursor: pointer;
+}
+.bar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+.bar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+.bar ul li::after /* This helps to bulid the underbar under each sections on manu
+					https://www.w3schools.com/cssref/sel_after.php */
+{
+	content:'';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.6s;
+}
+.bar ul li:hover:after  /* Combined pseudo-class */
+{
+	width:100%;
+}
+.con
+{
+	width: 100%;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+}
+.con
+{
+	font-size: 70px;
+	margin-top: 80px;
+}
+.con p {
+	margin: 10px auto;
+	font-weight: 10;
+	line-height: 70px;
+}
