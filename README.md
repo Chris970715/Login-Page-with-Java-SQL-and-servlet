@@ -78,7 +78,8 @@ h1{
 {
 	color: #FFFAF0;
 }
-
+	
+	
 A link located on the bottom of the login form has been designed to provide Register page. 
 
 <!DOCTYPE html>
