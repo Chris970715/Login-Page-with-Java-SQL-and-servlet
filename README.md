@@ -22,63 +22,8 @@ PRG556_User_page.html
 
 The HTML form has been decorated by the following CSS file named "LoginPage.css"
 
-@charset "ISO-8859-1";
 
-* {
-	padding: 0;
-	margin: 0;
-	font-family:sans-serif;
-}
 
-body{
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(149,199,20,1) 0%, rgba(0,212,255,1) 95%);
-}
-
-.user_menu
-{
-	width:350px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	position: absolute;
-	color: #fff;
-}
-h1{
-	font-size:40px;
-	text-align: center;
-	text-transform: uppercase;
-	margin:240px 40px;
-	
-}
-.user_menu p
-{
-	font-size: 20px;
-	margin:15px 0;
-}
-.user_menu input
-{
-	font-size:16px;
-	width: 100%;
-	padding: 15px 10px;
-	border: 0;
-	outline: none;
-	border-radius: 5px;
-}
-#button
-{
-	font-size: 19px;
-	font-weight: bold;
-	margin:20px 0;
-	padding:10px 15px;
-	width:50%;
-	border-radius: 5px;
-	
-}
-.big_text
-{
-	color: #FFFAF0;
-}
-	
 	
 A link located on the bottom of the login form has been designed to provide Register page. 
 
