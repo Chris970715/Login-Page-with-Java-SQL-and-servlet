@@ -1,6 +1,6 @@
 # Login-Page-with-Java-SQL-and-servlet\
 
-This project was designed to provide users Login interface through Java, Servlet, MySQL, CSS, and Html.
+This project was designed to provide users Login interface through Eclipse and Servlet, using Java, HTML, CSS, and MySQL.
 
 PRG556_User_page.html
 
